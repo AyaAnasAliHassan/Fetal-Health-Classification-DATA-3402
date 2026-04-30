@@ -2,7 +2,7 @@
 
 # Fetal Health Classification Project
 
-* **Predicting Fetal Health via Cardiotocogram Exam Analysis** : This repositiory holds an attempt to classify fetal health into three categories (Normal, Suspect, Pathological) using features extracted from cardiotocogram exams found in 
+* **Predicting Fetal Health via Cardiotocogram Exam Analysis** : This repositiory holds an attempt to classify fetal health into three categories (Normal, Suspect, Pathological) using features extracted from cardiotocogram exams found in ![.](fetal_health.csv).
 
 ## Overview
 
