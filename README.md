@@ -1,9 +1,8 @@
 ![](UTA-DataScience-Logo.png)
 
-# Project Title
+# Fetal Health Classification Project
 
-* **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
-"Get Rich" Kaggle challenge (provide link). 
+* **Predicting Fetal Health via Cardiotocogram Exam Analysis** : This repositiory holds an attempt to classify fetal health into three categories (Normal, Suspect, Pathological) using features extracted from cardiotocogram exams found in 
 
 ## Overview
 
