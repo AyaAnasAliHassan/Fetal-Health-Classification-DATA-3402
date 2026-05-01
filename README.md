@@ -6,10 +6,7 @@
 
 ## Overview
 
-* This section could contain a short paragraph which include the following:
-  * **Definition of the tasks / challenge** : The task is to use 21 features extracted from fetal heart rate (FHR) and uterine contraction (UC) signals to predict a three-class target: Normal (1), Suspect (2), or Pathological (3).
-  * **Approach** : This project formulates the problem as a multi-class classification task. I employed a Random Forest Classifier to handle the inherent class imbalance and non-linear relationships between physiological features. Data preparation included standard scaling and stratified splitting to ensure the model was evaluated on representative samples of the minority (Pathological) class.
-  * **Summary of the performance achieved** : The best model achieved an Accuracy of 93.19% and a Weighted F1-Score of 0.93 on the hold-out test set. Specifically, the model demonstrated high reliability in identifying "Normal" cases (98% recall) while maintaining strong performance on the critical "Pathological" class (86% recall).
+  * This project focuses on predicting fetal health outcomes using 21 features extracted from fetal heart rate (FHR) and uterine contraction (UC) signals. The goal is to classify each case into one of three categories: Normal (1), Suspect (2), or Pathological (3), making it a multi-class classification problem. To address this challenge, a Random Forest Classifier was implemented due to its ability to handle class imbalance and capture non-linear relationships within physiological data. The dataset was preprocessed using standard scaling, and a stratified train-test split was applied to ensure representative samples from all classes, particularly the minority Pathological class, were included in both sets. The final model achieved an accuracy of 93.19% and a weighted F1-score of 0.93 on the hold-out test set. Performance results showed the model was highly effective in identifying Normal cases with a recall of 98%, while also maintaining strong predictive capability for the clinically important Pathological class with an 86% recall.
 
 ## Summary of Workdone
 
@@ -32,6 +29,7 @@
 
 * Histograms: Visualized feature distributions across classes. For example, abnormal_short_term_variability showed a clear shift toward higher values for Pathological cases.
 * Feature Importance: A bar chart of Random Forest importance revealed that variability metrics and prolonged decelerations are the strongest predictors of fetal distress.
+* * <img width="859" height="401" alt="image" src="https://github.com/user-attachments/assets/204e1b34-26b9-47c9-8d27-6a8c97e4dd4d" />
 
 
 ### Problem Formulation
@@ -54,9 +52,8 @@
 
 * Metrics: Accuracy, Precision, Recall, and Weighted F1-Score.
 * Show/compare :
-*  Metric : Test Accuracy , Weighted F1 , Recall (Class 3 - Pathological)
-*  Score:  93.19%  ,  0.93 ,  86%
-* <img width="859" height="401" alt="image" src="https://github.com/user-attachments/assets/204e1b34-26b9-47c9-8d27-6a8c97e4dd4d" />
+* <img width="487" height="454" alt="image" src="https://github.com/user-attachments/assets/d34c670b-b55f-45b2-81c1-80842b3b774c" />
+
 
 
 ### Conclusions
