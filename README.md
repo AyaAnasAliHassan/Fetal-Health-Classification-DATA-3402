@@ -51,7 +51,8 @@
 
 * Metrics: Accuracy, Precision, Recall, and Weighted F1-Score.
 * Show/compare :
-  <img width="487" height="454" alt="image" src="https://github.com/user-attachments/assets/d34c670b-b55f-45b2-81c1-80842b3b774c" />
+  <img width="1483" height="383" alt="image" src="https://github.com/user-attachments/assets/6e8cbcb0-9122-4cc1-881e-277102c8ff49" />
+
 
 
 
