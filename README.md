@@ -27,9 +27,8 @@
 
 #### Data Visualization
 
-* Histograms: Visualized feature distributions across classes. For example, abnormal_short_term_variability showed a clear shift toward higher values for Pathological cases.
 * Feature Importance: A bar chart of Random Forest importance revealed that variability metrics and prolonged decelerations are the strongest predictors of fetal distress.
- * <img width="859" height="401" alt="image" src="https://github.com/user-attachments/assets/204e1b34-26b9-47c9-8d27-6a8c97e4dd4d" />
+<img width="523" height="422" alt="image" src="https://github.com/user-attachments/assets/8cc64c7a-b577-4214-9b2c-cc6a37c4f315" />
 
 
 ### Problem Formulation
