@@ -2,7 +2,7 @@
 
 # Fetal Health Classification Project
 
-* **Predicting Fetal Health via Cardiotocogram Exam Analysis** : This repositiory holds an attempt to classify fetal health into three categories (Normal, Suspect, Pathological) using features extracted from cardiotocogram exams found in fetal_healh.csv.
+* **Predicting Fetal Health via Cardiotocogram Exam Analysis**: This repositiory holds an attempt to classify fetal health into three categories: Normal, Suspect, Pathological, using features extracted from cardiotocogram exams found in Fetal Health classification (https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification).
 
 ## Overview
 
@@ -29,7 +29,7 @@
 
 * Histograms: Visualized feature distributions across classes. For example, abnormal_short_term_variability showed a clear shift toward higher values for Pathological cases.
 * Feature Importance: A bar chart of Random Forest importance revealed that variability metrics and prolonged decelerations are the strongest predictors of fetal distress.
-* * <img width="859" height="401" alt="image" src="https://github.com/user-attachments/assets/204e1b34-26b9-47c9-8d27-6a8c97e4dd4d" />
+ * <img width="859" height="401" alt="image" src="https://github.com/user-attachments/assets/204e1b34-26b9-47c9-8d27-6a8c97e4dd4d" />
 
 
 ### Problem Formulation
@@ -52,7 +52,7 @@
 
 * Metrics: Accuracy, Precision, Recall, and Weighted F1-Score.
 * Show/compare :
-* <img width="487" height="454" alt="image" src="https://github.com/user-attachments/assets/d34c670b-b55f-45b2-81c1-80842b3b774c" />
+  <img width="487" height="454" alt="image" src="https://github.com/user-attachments/assets/d34c670b-b55f-45b2-81c1-80842b3b774c" />
 
 
 
