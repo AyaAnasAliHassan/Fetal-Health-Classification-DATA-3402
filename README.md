@@ -16,9 +16,9 @@
   * Type: CSV file containing 21 numerical features (e.g., accelerations, fetal movement, uterine contractions) and 1 categorical target.
   * Size: 2,126 total records.
   * Instances (Train, Test, Validation Split):
-          * Train: 1,275 instances (60%)
-          * Validation: 425 instances (20%)
-          * Test: 426 instances (20%)
+    * Train: 1,275 instances (60%)
+    * Validation: 425 instances (20%)
+    * Test: 426 instances (20%)
 #### Preprocessing / Clean up
 
 * Missing Values: None detected; no imputation required.
