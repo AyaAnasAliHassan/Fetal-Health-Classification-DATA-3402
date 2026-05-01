@@ -54,69 +54,45 @@
 
 * Metrics: Accuracy, Precision, Recall, and Weighted F1-Score.
 * Show/compare :
-*  Metric,Score
-Test Accuracy,93.19%
-Weighted F1,0.93
-Recall (Class 3 - Pathological),86%
-* Show one (or few) visualization(s) of results, for example ROC curves.
+*  Metric : Test Accuracy , Weighted F1 , Recall (Class 3 - Pathological)
+*  Score:  93.19%  ,  0.93 ,  86%
+* Show one 
 
 ### Conclusions
 
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+* Random Forest is highly effective for medical tabular data where class boundaries are non-linear. The most critical features for detecting fetal pathology are abnormal short-term variability and prolonged decelerations.
 
 ### Future Work
 
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
+* Implement SMOTE (Synthetic Minority Over-sampling Technique) to better balance the Suspect and Pathological classes.
+* Explore XGBoost or LightGBM to see if gradient boosting provides a lift in F1-score over the Random Forest baseline.
 
 ## How to reproduce results
 
-* In this section, provide instructions at least one of the following:
-   * Reproduce your results fully, including training.
-   * Apply this package to other data. For example, how to use the model you trained.
-   * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
+* Download fetal_health.csv from Kaggle.
+* Run the provided Python script to perform scaling, training, and evaluation.
+* Ensure your environment matches the Software Setup listed below.
 
 ### Overview of files in repository
 
-* Describe the directory structure, if any.
-* List all relavent files and describe their role in the package.
-* An example:
-  * utils.py: various functions that are used in cleaning and visualizing data.
-  * preprocess.ipynb: Takes input data in CSV and writes out data frame after cleanup.
-  * visualization.ipynb: Creates various visualizations of the data.
-  * models.py: Contains functions that build the various models.
-  * training-model-1.ipynb: Trains the first model and saves model during training.
-  * training-model-2.ipynb: Trains the second model and saves model during training.
-  * training-model-3.ipynb: Trains the third model and saves model during training.
-  * performance.ipynb: loads multiple trained models and compares results.
-  * inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
-
-* Note that all of these notebooks should contain enough text for someone to understand what is happening.
+* Files:
+  * fetal_health.csv: The raw dataset.
+  * analysis_and_model.py: The complete script for cleaning, visualizing, and training.
+  * feature_summary.csv: A generated table of data statistics.
+  * fetal_health_predictions.csv: The final output of the model on the test set.
+  * histograms_features_vs_class.png: Visual exploration of the features.
+    
 
 ### Software Setup
-* List all of the required packages.
-* If not standard, provide or point to instruction for installing the packages.
-* Describe how to install your package.
-
-### Data
-
-* Point to where they can download the data.
-* Lead them through preprocessing steps, if necessary.
-
-### Training
-
-* Describe how to train the model
-
-#### Performance Evaluation
-
-* Describe how to run the performance evaluation.
+* Python 3.8+
+* Packages: pandas, numpy, matplotlib, seaborn, scikit-learn.
+* Install via pip: pip install pandas numpy matplotlib seaborn scikit-learn
 
 
 ## Citations
 
-* Provide any references.
-
+* Ayres de Campos et al. (2000) SisPorto 2.0: A Program for Automated Analysis of Cardiotocograms.
+* Kaggle Dataset: Andrew MVD, "Fetal Health Classification".
 
 
 
