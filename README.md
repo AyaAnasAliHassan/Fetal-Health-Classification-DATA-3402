@@ -56,7 +56,8 @@
 * Show/compare :
 *  Metric : Test Accuracy , Weighted F1 , Recall (Class 3 - Pathological)
 *  Score:  93.19%  ,  0.93 ,  86%
-* Show one 
+* <img width="859" height="401" alt="image" src="https://github.com/user-attachments/assets/204e1b34-26b9-47c9-8d27-6a8c97e4dd4d" />
+
 
 ### Conclusions
 
