@@ -1,4 +1,3 @@
-![](UTA-DataScience-Logo.png)
 
 # Fetal Health Classification Project
 
