@@ -2,11 +2,11 @@
 
 # Fetal Health Classification Project
 
-* **Predicting Fetal Health via Cardiotocogram Exam Analysis**: This repositiory holds an attempt to classify fetal health into three categories: Normal, Suspect, Pathological, using features extracted from cardiotocogram exams found in Fetal Health classification (https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification).
+**Predicting Fetal Health via Cardiotocogram Exam Analysis**: This repositiory holds an attempt to classify fetal health into three categories: Normal, Suspect, Pathological, using features extracted from cardiotocogram exams found in Fetal Health classification (https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification).
 
 ## Overview
 
-  * This project focuses on predicting fetal health outcomes using 21 features extracted from fetal heart rate (FHR) and uterine contraction (UC) signals. The goal is to classify each case into one of three categories: Normal (1), Suspect (2), or Pathological (3), making it a multi-class classification problem. To address this challenge, a Random Forest Classifier was implemented due to its ability to handle class imbalance and capture non-linear relationships within physiological data. The dataset was preprocessed using standard scaling, and a stratified train-test split was applied to ensure representative samples from all classes, particularly the minority Pathological class, were included in both sets. The final model achieved an accuracy of 93.19% and a weighted F1-score of 0.93 on the hold-out test set. Performance results showed the model was highly effective in identifying Normal cases with a recall of 98%, while also maintaining strong predictive capability for the clinically important Pathological class with an 86% recall.
+This project focuses on predicting fetal health outcomes using 21 features extracted from fetal heart rate (FHR) and uterine contraction (UC) signals. The goal is to classify each case into one of three categories: Normal (1), Suspect (2), or Pathological (3), making it a multi-class classification problem. To address this challenge, a Random Forest Classifier was implemented due to its ability to handle class imbalance and capture non-linear relationships within physiological data. The dataset was preprocessed using standard scaling, and a stratified train-test split was applied to ensure representative samples from all classes, particularly the minority Pathological class, were included in both sets. The final model achieved an accuracy of 93.19% and a weighted F1-score of 0.93 on the hold-out test set. Performance results showed the model was highly effective in identifying Normal cases with a recall of 98%, while also maintaining strong predictive capability for the clinically important Pathological class with an 86% recall.
 
 ## Summary of Workdone
 
@@ -27,7 +27,7 @@
 
 #### Data Visualization
 
-* Feature Importance: A bar chart of Random Forest importance revealed that variability metrics and prolonged decelerations are the strongest predictors of fetal distress.
+Feature Importance: A bar chart of Random Forest importance revealed that variability metrics and prolonged decelerations are the strongest predictors of fetal distress.
 <img width="523" height="422" alt="image" src="https://github.com/user-attachments/assets/8cc64c7a-b577-4214-9b2c-cc6a37c4f315" />
 
 
@@ -51,14 +51,14 @@
 
 * Metrics: Accuracy, Precision, Recall, and Weighted F1-Score.
 * Show/compare :
-  <img width="1483" height="383" alt="image" src="https://github.com/user-attachments/assets/6e8cbcb0-9122-4cc1-881e-277102c8ff49" />
+<img width="1483" height="383" alt="image" src="https://github.com/user-attachments/assets/6e8cbcb0-9122-4cc1-881e-277102c8ff49" />
 
 
 
 
 ### Conclusions
 
-* Random Forest is highly effective for medical tabular data where class boundaries are non-linear. The most critical features for detecting fetal pathology are abnormal short-term variability and prolonged decelerations.
+Random Forest is highly effective for medical tabular data where class boundaries are non-linear. The most critical features for detecting fetal pathology are abnormal short-term variability and prolonged decelerations.
 
 ### Future Work
 
