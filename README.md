@@ -28,7 +28,7 @@ This project focuses on predicting fetal health outcomes using 21 features extra
 #### Data Visualization
 
 Feature Importance: A bar chart of Random Forest importance revealed that variability metrics and prolonged decelerations are the strongest predictors of fetal distress.
-<img width="523" height="422" alt="image" src="https://github.com/user-attachments/assets/8cc64c7a-b577-4214-9b2c-cc6a37c4f315" />
+             <img width="523" height="422" alt="image" src="https://github.com/user-attachments/assets/8cc64c7a-b577-4214-9b2c-cc6a37c4f315" />
 
 
 ### Problem Formulation
@@ -51,7 +51,7 @@ Feature Importance: A bar chart of Random Forest importance revealed that variab
 
 * Metrics: Accuracy, Precision, Recall, and Weighted F1-Score.
 * Show/compare :
-<img width="1483" height="383" alt="image" src="https://github.com/user-attachments/assets/6e8cbcb0-9122-4cc1-881e-277102c8ff49" />
+                  <img width="1483" height="383" alt="image" src="https://github.com/user-attachments/assets/6e8cbcb0-9122-4cc1-881e-277102c8ff49" />
 
 
 
